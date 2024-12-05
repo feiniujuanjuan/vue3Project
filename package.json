@@ -11,7 +11,8 @@
     "lint:fix": "eslint src --fix",
     "format": "prettier --write \"./**/*.{vue,ts,js,json,css,scss,html}\"",
     "lint:elslint": "eslint src/**/*.{ts,js} --cache --fix",
-    "lint:style": "stylelint src/**/*.{vue,css,scss} --cache --fix"
+    "lint:style": "stylelint src/**/*.{vue,css,scss} --cache --fix",
+    "prepare": "husky install"
   },
   "dependencies": {
     "vue": "^3.5.13"
@@ -22,6 +23,7 @@
     "eslint": "^9.16.0",
     "eslint-plugin-vue": "^9.32.0",
     "globals": "^15.13.0",
+    "husky": "^8.0.0",
     "prettier": "3.4.1",
     "stylelint": "^16.11.0",
     "stylelint-config-prettier": "^9.0.5",
